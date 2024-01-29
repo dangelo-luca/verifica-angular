@@ -11,7 +11,10 @@ import {MatButtonModule} from '@angular/material/button';
 })
 export class LikeComponent {
 
-  like = 10;
+
+  like = Math.floor(Math.random()*10)
+
+  
   
 
 }
