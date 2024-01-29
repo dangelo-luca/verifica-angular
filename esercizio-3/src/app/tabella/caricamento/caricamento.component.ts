@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 @Component({
-  selector: 'app-caricamento',
+  selector: 'caricamento',
   standalone: true,
-  imports: [],
+  imports: [MatProgressSpinnerModule],
   templateUrl: './caricamento.component.html',
   styleUrl: './caricamento.component.css'
 })

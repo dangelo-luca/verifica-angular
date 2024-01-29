@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { LikeComponent } from './like/like.component';
+import { CaricamentoComponent } from './caricamento/caricamento.component';
 
 @Component({
   selector: 'tabella',
   standalone: true,
-  imports: [LikeComponent],
+  imports: [LikeComponent,CaricamentoComponent],
   templateUrl: './tabella.component.html',
   styleUrl: './tabella.component.css'
 })
