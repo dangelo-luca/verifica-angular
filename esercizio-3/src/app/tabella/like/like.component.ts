@@ -22,7 +22,16 @@ export class LikeComponent {
       this.like = this.like+1
     }
   }
-  
-  
 
-}
+  Colore(): string{
+    if (this.like <33){
+      return "primary";
+    }
+    else if (this.like >= 33 && this.like <66){
+      return "accent";
+    }else{
+      return "warn";
+    }
+    }
+
+  }
