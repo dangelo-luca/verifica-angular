@@ -1,6 +1,6 @@
 <br>
 <label for="">{{like}}</label>
-<mat-progress-bar style="width: 100%;" mode="determinate" value={{like}}></mat-progress-bar>
+<mat-progress-bar style="width: 100%;" mode="determinate" value={{like}} [color] = Colore()></mat-progress-bar>
 <section>
     <div class="example-button-row">
       <button  [color] = Colore() (click)=clickbottone() mat-raised-button color="primary">Primary</button>

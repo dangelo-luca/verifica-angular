@@ -10,8 +10,16 @@ import { CaricamentoComponent } from './caricamento/caricamento.component';
   styleUrl: './tabella.component.css'
 })
 export class TabellaComponent {
-  nome1: string = "meme su Gerry Scotti"
-  nome2: string = "Burning Paper"
-  Descrizione1: string = "questo meme ha come protagonista uno dei più famosi conduttori televisivi italiani, noto per le sue espressioni facciali molto usate sul web per creare i meme."
-  Descrizione2: string = "In questo meme, si vede SpongeBob leggere un documento con un po' di scherno prima di bruciarlo senza voltarsi indietro. Questo esempio dimostra solo la mancanza di interesse di alcuni individui per qualsiasi cosa."
-}
+  meme = [
+    {
+      Nome1: "meme su Gerry Scotti",
+      Descrizione1:"questo meme ha come protagonista uno dei più famosi conduttori televisivi italiani, noto per le sue espressioni facciali molto usate sul web per creare i meme."
+    },
+    {
+      Nome2:"Burning Paper",
+      Descrizione2:"In questo meme, si vede SpongeBob leggere un documento con un po' di scherno prima di bruciarlo senza voltarsi indietro. Questo esempio dimostra solo la mancanza di interesse di alcuni individui per qualsiasi cosa."
+
+    }
+  ]
+  }
+

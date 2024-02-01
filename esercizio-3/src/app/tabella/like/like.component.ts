@@ -14,7 +14,8 @@ export class LikeComponent {
   like = 0;
 
   constructor(){
-    this.like = Math.floor(Math.random()*10)
+    this.like = Math.floor(Math.random()*100)
+    this.Colore();
   }
 
   clickbottone(){
